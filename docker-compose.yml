@@ -1,0 +1,7 @@
+version: "3"
+services:
+    redis:
+        image: "redis:latest"
+        container_name: "pubsub-redis-example"
+        ports: 
+            - "6379:6379"
